@@ -18,7 +18,7 @@ ul {
   display: flex;
   justify-content: center;
   gap: 350px;
-  padding: 5%;
+  padding: 2%;
   margin-top: 0;
   font-family: Arial, Helvetica, sans-serif;
   font-size: larger;
@@ -37,11 +37,9 @@ p {
   font-size: 20px;
   line-height: 1.8;
   color: #000000;
-  padding-top: 0.9%;
   font-family: Arial, Helvetica, sans-serif;
   grid-column: 1/3;
   margin-left: 350px;
-  margin-top: 100px;
 }
 
 /* .celinebechandersen { */
@@ -78,6 +76,7 @@ main {
 
 h2 {
   font-size: 36px;
+  font-display: bold;
   max-width: 700px;
   text-align: center;
   font-size: 50px;
