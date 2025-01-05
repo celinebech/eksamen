@@ -1,9 +1,7 @@
 body {
-  font-size: 16px;
   background-image: url(img/forsidebaggrund.png);
   background-size: cover;
   background-position: center;
-  background-repeat: repeat;
 }
 
 h1 {
@@ -29,8 +27,9 @@ h1 {
 } */
 
 .portfolio {
-  position: absolute;
-  padding: 150px;
+  grid-column: 1/3;
+  margin-top: 15%;
+  margin-left: 10%;
 }
 
 ul {
@@ -44,14 +43,19 @@ ul {
   font-size: larger;
   color: black;
 }
+
+a {
+  text-decoration: none;
+}
+
 p {
   font-size: 36px;
   max-width: 700px;
-  margin: 20px auto;
+  /* margin: 20px auto; */
   text-align: center;
   font-size: 35px;
   line-height: 1.8;
-  margin: 1200px auto;
+  margin: 100px auto;
   color: #000000;
   padding-top: 0.9%;
   font-family: Arial, Helvetica, sans-serif;
@@ -67,10 +71,4 @@ p {
   padding-top: 0.9%;
   top: -1150px;
   left: 0px;
-}
-
-body {
-  margin: 0;
-  overflow: hidden;
-  background-color: #f0f0f0;
 }
