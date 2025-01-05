@@ -1,6 +1,6 @@
 body {
   font-size: 16px;
-  background-image: url(img/forsidebaggrund.png);
+  background-image: url(img/baggrundommig.png);
   background-size: cover;
   background-position: center;
   background-repeat: repeat;
@@ -13,25 +13,20 @@ h1 {
 }
 
 /* .port {
-  padding: 15%;
-  position: absolute;
-  padding-top: 50px;
-  padding-left: 40px;
-  font-size: 75px;
-}
-
-.folio {
-  padding: 25%;
-  padding-left: -150px;
-  position: absolute;
-  padding-top: 185px;
-  font-size: 75px;
-} */
-
-.portfolio {
-  position: absolute;
-  padding: 150px;
-}
+    padding: 15%;
+    position: absolute;
+    padding-top: 50px;
+    padding-left: 40px;
+    font-size: 75px;
+  }
+  
+  .folio {
+    padding: 25%;
+    padding-left: -150px;
+    position: absolute;
+    padding-top: 185px;
+    font-size: 75px;
+  } */
 
 ul {
   display: flex;
@@ -55,18 +50,6 @@ p {
   color: #000000;
   padding-top: 0.9%;
   font-family: Arial, Helvetica, sans-serif;
-}
-
-.knap {
-  position: relative;
-  max-width: 700px;
-  margin: 50px auto;
-  text-align: center;
-  line-height: 1.8;
-  margin: 1000px auto;
-  padding-top: 0.9%;
-  top: -1150px;
-  left: 0px;
 }
 
 body {
