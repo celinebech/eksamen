@@ -56,21 +56,3 @@ p {
   top: -1150px;
   left: 0px;
 }
-
-.burger-menu {
-  display: none;
-  cursor: pointer;
-  flex-direction: column;
-  gap: 5px;
-  position: relative;
-  z-index: 100;
-  margin-bottom: 10%;
-  margin-top: 20px;
-}
-
-.burger-menu .line {
-  width: 30px;
-  height: 4px;
-  background-color: #ffffff;
-  margin-left: 20px;
-}

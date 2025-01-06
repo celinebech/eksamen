@@ -1,0 +1,75 @@
+.grid_1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+h1 {
+  color: #ad0000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  padding-top: 200px;
+  bottom: 1000px;
+  margin-bottom: 20px;
+  font-size: 80px;
+  text-align: center;
+}
+h2 {
+  color: #ad0000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  font-size: 25px;
+  text-align: center;
+}
+
+h3 {
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  font-size: 20px;
+  text-align: center;
+}
+
+h4 {
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  font-size: 20px;
+  text-align: center;
+}
+
+.tema1billede {
+  padding-top: 38%;
+  padding-bottom: 50%;
+  padding-right: 100%;
+  padding-left: 20%;
+  max-width: 100%;
+  size: 90%;
+}
+
+body {
+  font-size: 16px;
+  background-image: url(img/forsidebaggrund.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  gap: 350px;
+  padding: 2%;
+  margin-top: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: larger;
+  color: black;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.grid_1 {
+  margin-top: 0%;
+  margin-left: 10%;
+}
