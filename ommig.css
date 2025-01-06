@@ -1,4 +1,4 @@
-body {
+/* body {
   font-size: 16px;
   background-image: url(img/forsidebaggrund.png);
   background-size: cover;
@@ -42,23 +42,6 @@ p {
   margin-left: 350px;
 }
 
-/* .celinebechandersen { */
-/* position: absolute;
-  padding: 150px; */
-/* } */
-
-/* .mig { */
-/* position: absolute;
-  padding: 150px;
-  top: 450px; */
-/* } */
-
-/* .cv {
-  /* position: absolute;
-  padding: 150px;
-  padding-left: 1100px;
-  margin-top: 500px; */
-
 img {
   max-width: 100%;
 }
@@ -87,4 +70,132 @@ h2 {
   grid-column: 1/3;
   margin-left: 350px;
   margin-top: 90px;
+} */
+
+/* Baggrund og grundlæggende styling */
+body {
+  font-size: 16px;
+  background-image: url(img/forsidebaggrund.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; /* Undgå gentagelse for bedre æstetik */
+}
+
+/* Hovedoverskrifter */
+h1 {
+  color: #ad0000;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 150px; /* Reduceret padding for bedre mobilvisning */
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 70px; /* Justeret fontstørrelse */
+}
+
+/* Navigation */
+ul {
+  display: flex;
+  justify-content: center;
+  gap: 350px;
+  padding: 2%;
+  margin-top: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: larger;
+  color: black;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  font-size: 18px; /* Ensartet tekststørrelse */
+}
+
+/* Brødtekst */
+p {
+  font-size: 20px;
+  max-width: 700px;
+  text-align: center;
+  line-height: 1.8;
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px auto; /* Centrerer teksten */
+}
+
+/* Billeder */
+img {
+  max-width: 100%;
+  height: auto; /* Holder proportionerne */
+  display: block;
+  margin: 0 auto; /* Centrerer billeder */
+}
+
+/* Grid-struktur */
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  gap: 20px; /* Tilføjer mellemrum mellem rækker */
+  margin: 0 auto;
+  max-width: 1200px; /* Begrænser bredden for bedre læsbarhed */
+}
+
+.celinebechandersen {
+  grid-column: 1/3; /* Strækker sig over begge kolonner */
+}
+
+/* Sekundære overskrifter */
+h2 {
+  font-size: 50px;
+  font-weight: bold;
+  max-width: 700px;
+  text-align: center;
+  line-height: 1.8;
+  color: #000000;
+  margin: 40px auto;
+  padding-top: 0.9%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Mobiltilpasning */
+@media (max-width: 768px) {
+  /* Justering af body */
+  body {
+    font-size: 14px; /* Mindre fontstørrelse for små skærme */
+  }
+
+  /* Grid */
+  main {
+    grid-template-columns: 1fr; /* En enkelt kolonne på mobil */
+    gap: 15px;
+  }
+
+  /* H1 */
+  h1 {
+    font-size: 50px; /* Mindre størrelse */
+    padding-top: 100px; /* Mindre top-padding */
+  }
+
+  /* Navigation */
+  ul {
+    flex-direction: column; /* Ændrer til vertikal navigation */
+    gap: 20px;
+    padding: 0;
+  }
+
+  /* H2 */
+  h2 {
+    font-size: 30px; /* Mindre fontstørrelse */
+    margin: 20px auto;
+  }
+
+  /* Brødtekst */
+  p {
+    font-size: 18px;
+    margin: 10px auto;
+    max-width: 90%; /* Fylder mere på små skærme */
+  }
+
+  /* Billeder */
+  img {
+    margin: 10px auto; /* Mindre afstand */
+  }
 }
