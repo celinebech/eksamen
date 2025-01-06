@@ -37,7 +37,7 @@ p {
   max-width: 700px;
   /* margin: 20px auto; */
   text-align: center;
-  font-size: 35px;
+  font-size: 23px;
   line-height: 1.8;
   margin: 100px auto;
   color: #000000;
@@ -55,4 +55,11 @@ p {
   padding-top: 0.9%;
   top: -1150px;
   left: 0px;
+}
+
+@media (max-width: 768px) {
+  ul {
+    flex-direction: column; /* Ændrer navigation til vertikal liste */
+    gap: 20px; /* Mindre mellemrum på mobil */
+  }
 }

@@ -1,21 +1,24 @@
 .grid_1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  gap: 20px; /* Mellemrum mellem kolonner */
 }
+
+/* Hovedoverskrifter */
 h1 {
   color: #ad0000;
   font-family: Arial, Helvetica, sans-serif;
-  font-weight: 500;
+  font-weight: bold;
   padding-top: 200px;
-  bottom: 1000px;
   margin-bottom: 20px;
   font-size: 80px;
   text-align: center;
 }
+
 h2 {
   color: #ad0000;
   font-family: Arial, Helvetica, sans-serif;
-  font-weight: 200;
+  font-weight: bold;
   font-size: 25px;
   text-align: center;
 }
@@ -31,11 +34,12 @@ h3 {
 h4 {
   color: #000000;
   font-family: Arial, Helvetica, sans-serif;
-  font-weight: 200;
+  font-weight: bold;
   font-size: 20px;
   text-align: center;
 }
 
+/* Billeder */
 .tema1billede {
   padding-top: 38%;
   padding-bottom: 50%;
@@ -45,6 +49,7 @@ h4 {
   size: 90%;
 }
 
+/* Baggrund for hele siden */
 body {
   font-size: 16px;
   background-image: url(img/forsidebaggrund.png);
@@ -53,6 +58,7 @@ body {
   background-repeat: repeat;
 }
 
+/* Navigation */
 ul {
   display: flex;
   justify-content: center;
@@ -69,7 +75,46 @@ a {
   text-decoration: none;
 }
 
+/* Grid Justering */
 .grid_1 {
   margin-top: 0%;
   margin-left: 10%;
+}
+
+/* Media Query for Mobilversion */
+@media (max-width: 768px) {
+  /* Justerer grid til en kolonne på små skærme */
+  .grid_1 {
+    grid-template-columns: 1fr; /* Én kolonne i stedet for to */
+    margin-left: 5%; /* Mindre margin på små skærme */
+  }
+
+  /* Justering af h1 */
+  h1 {
+    font-size: 50px; /* Mindre størrelse på h1 på mobil */
+    padding-top: 50px; /* Justeret top-padding */
+  }
+
+  /* Justering af h2 */
+  h2 {
+    font-size: 20px; /* Mindre størrelse på h2 på mobil */
+  }
+
+  /* Billeder */
+  .tema1billede {
+    padding-top: 10%;
+    padding-bottom: 30%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  /* Navigation */
+  ul {
+    flex-direction: column; /* Ændrer navigationen til en vertikal liste */
+    gap: 20px;
+  }
+}
+
+.intime {
+  margin-top: -60%;
 }
