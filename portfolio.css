@@ -41,6 +41,18 @@ body {
   background-repeat: repeat;
 }
 
+ul {
+  display: flex;
+  justify-content: center;
+  gap: 350px;
+  list-style: none;
+  padding: 2%;
+  margin: 0;
+  font-family: "Big Caslon", serif;
+  font-size: 20px;
+  color: black;
+}
+
 /* Mobilvenlig version */
 @media (max-width: 768px) {
   .tema-box {
@@ -72,15 +84,8 @@ h4 {
 }
 
 ul {
-  display: flex;
-  justify-content: center;
-  gap: 350px;
-  padding: 2%;
-  margin-top: 0;
-  font-family: "Big Caslon", serif;
-  font-size: 20px;
-  color: black;
-  list-style: none;
+  flex-direction: column; /* Ændrer navigation til vertikal liste */
+  gap: 20px; /* Mindre mellemrum på mobil */
 }
 
 a {
@@ -90,10 +95,4 @@ a {
 img {
   max-width: 100%;
   margin-left: 33%;
-}
-*/ main {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto;
-  margin: 0 auto;
 }

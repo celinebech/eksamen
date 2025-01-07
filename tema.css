@@ -1,3 +1,6 @@
+/* Standard styling for desktop */
+
+/* Grid layout */
 .grid_1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -98,15 +101,16 @@ a {
 
   /* Justering af h2 */
   h2 {
-    font-size: 20px; /* Mindre størrelse på h2 på mobil */
+    font-size: 20px;
+    /* Mindre størrelse på h2 på mobil */
   }
 
   /* Billeder */
   .temabillede {
     padding-top: 10%;
     padding-bottom: 30%;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 0%;
+    padding-right: 3%;
   }
 
   /* Navigation */

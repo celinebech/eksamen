@@ -1,3 +1,6 @@
+/* Standard styling for desktop */
+
+/* Grid layout */
 .grid_1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -82,6 +85,11 @@ a {
   margin-left: 10%;
 }
 
+/* Justering af .intime */
+.intime {
+  margin-top: -60%;
+}
+
 /* Media Query for Mobilversion */
 @media (max-width: 768px) {
   /* Justerer grid til en kolonne på små skærme */
@@ -114,8 +122,4 @@ a {
     flex-direction: column; /* Ændrer navigationen til en vertikal liste */
     gap: 20px;
   }
-}
-
-.intime {
-  margin-top: -60%;
 }
