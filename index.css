@@ -55,11 +55,37 @@ p {
   padding-top: 0.9%;
   top: -1150px;
   left: 0px;
+  margin-top: 1;
 }
 
 @media (max-width: 768px) {
   ul {
     flex-direction: column; /* Ændrer navigation til vertikal liste */
     gap: 20px; /* Mindre mellemrum på mobil */
+  }
+}
+#macmiller_container {
+  position: absolute;
+  width: 18%;
+  aspect-ratio: 287/293;
+  top: -50%; /* Start position off-screen */
+  left: 50%;
+  transform: translateX(-50%);
+  animation: fallDown 3s ease forwards;
+}
+
+#macmiller_sprite {
+  width: 100%;
+  height: 100%;
+  background-image: url("img/macmillericon.png");
+  background-size: cover;
+}
+
+@keyframes fallDown {
+  0% {
+    top: -50%;
+  }
+  100% {
+    top: 123%;
   }
 }
