@@ -1,25 +1,20 @@
-/* Standard styling for desktop */
-
-/* Baggrund */
 body {
   font-size: 16px;
   background-image: url(img/portfolio.webp);
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat; /* Undgå gentagelse for bedre æstetik */
+  background-repeat: no-repeat;
 }
 
-/* Hovedoverskrifter */
 h1 {
   color: #ad0000;
   font-family: "Big Caslon", serif;
-  padding-top: 150px; /* Reduceret padding for bedre mobilvisning */
+  padding-top: 150px;
   margin-bottom: 20px;
   text-align: center;
-  font-size: 70px; /* Justeret fontstørrelse */
+  font-size: 70px;
 }
 
-/* Navigation */
 ul {
   display: flex;
   justify-content: center;
@@ -45,33 +40,32 @@ p {
   line-height: 1.8;
   color: #000000;
   font-family: "Big Caslon", serif;
-  margin: 20px; /* Centrerer teksten */
+  margin: 20px; /* centrerer teksten */
   padding-top: 20%;
   padding-bottom: 15%;
 }
 
 img {
   max-width: 100%;
-  height: auto; /* Holder proportionerne */
+  height: auto; /* holder proportionerne/placering */
   display: block;
-  margin: 0 auto; /* Centrerer billeder */
+  margin: 0 auto; /* centrerer billederne */
 }
 
-/* Grid-struktur */
+/* grid-strukturen */
 main {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
-  gap: 20px; /* Tilføjer mellemrum mellem rækker */
+  gap: 20px;
   margin: 0 auto;
-  max-width: 1200px; /* Begrænser bredden for bedre læsbarhed */
+  max-width: 1200px;
 }
 
 .celinebechandersen {
-  grid-column: 1/3; /* Strækker sig over begge kolonner */
+  grid-column: 1/3; /* strækker sig over begge kolonner!! */
 }
 
-/* Sekundære overskrifter */
 h2 {
   font-size: 60px;
   font-weight: bold;
@@ -84,50 +78,44 @@ h2 {
   font-family: "Big Caslon", serif;
 }
 
-/* Mobiltilpasning */
 @media (max-width: 768px) {
-  /* Justering af body */
   body {
-    font-size: 14px; /* Mindre fontstørrelse for små skærme */
+    font-size: 14px;
   }
 
-  /* Grid */
   main {
-    grid-template-columns: 1fr 1fr; /* En enkelt kolonne på mobil */
+    grid-template-columns: 1fr 1fr;
     gap: 15px;
   }
 
-  /* H1 */
   h1 {
-    font-size: 50px; /* Mindre størrelse */
-    padding-top: 100px; /* Mindre top-padding */
+    font-size: 50px;
+    padding-top: 100px; /* mindre top-padding end ved desktop */
   }
 
   ul {
-    flex-direction: column; 
-    gap: 20px; /
+    flex-direction: column;
+    gap: 20px;
   }
-  
+
   a {
     text-decoration: none;
   }
 
   /* H2 */
   h2 {
-    font-size: 30px; /* Mindre fontstørrelse */
+    font-size: 30px;
     margin: 20px auto;
   }
 
-  /* Brødtekst */
   p {
     font-size: 18px;
     margin: 10px auto;
-    max-width: 90%; /* Fylder mere på små skærme */
+    max-width: 90%;
   }
 
-  /* Billeder */
   img {
-    margin: 10px auto; /* Mindre afstand */
+    margin: 10px auto;
     display: block;
   }
 }

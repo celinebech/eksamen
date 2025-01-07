@@ -1,27 +1,28 @@
 .tema-box {
-  display: block; /* Gør hele området klikbart */
-  background-color: #ededed; /* Lys baggrundsfarve for boksene */
+  display: block; /* gør hele området klikbart */
+  background-color: #ededed;
   font-family: "Big Caslon", serif;
-  color: #ad0000; /* Tekstfarve */
+  color: #ad0000;
   text-align: center;
   padding: 20px;
   margin-bottom: 20px;
-  border-radius: 50px; /* Runde hjørner */
+  border-radius: 50px; /* de runde hjørner */
   border-color: #ad0000;
-  text-decoration: none; /* Fjern standard link-underline */
-  transition: transform 0.3s, box-shadow 0.3s; /* Blød overgang for hover-effekter */
+  text-decoration: none; /* fjerner standard link-underline */
+  transition: transform 0.3s, box-shadow 0.3s; /* den bløde overgang for hover-effekter */
 }
 
 .tema-box:hover {
-  ul {
-    flex-direction: column; /* Ændrer navigation til vertikal liste */
-    gap: 20px; /* Mindre mellemrum på mobil */
-  } /* Lidt større ved hover */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Skaber en skygge ved hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Skaber skygge ved hover */
+}
+
+.tema-box:hover ul {
+  flex-direction: column; /* Ændrer rækkefølgen af elementerne */
+  gap: 20px; /* Mindre mellemrum på mobil */
 }
 
 h2 {
-  margin: 0; /* Fjern margin omkring overskrifter */
+  margin: 0; /* fjerner margin omkring overskrifter */
 }
 
 h1 {
@@ -37,7 +38,6 @@ body {
   font-size: 16px;
   background-image: url(img/portfolio.webp);
   background-size: cover;
-  /* background-position: center; */
   background-repeat: repeat;
 }
 
@@ -59,8 +59,7 @@ a {
   font-weight: bolder;
 }
 
-@media (max-width: 768px) 
-{
+@media (max-width: 768px) {
   .tema-box {
     padding: 15px;
   }
@@ -86,18 +85,17 @@ a {
     font-size: 20px;
     text-align: center;
   }
-    ul {
-    flex-direction: column; 
-    gap: 20px; /
+  ul {
+    flex-direction: column;
+    gap: 20px;
   }
-  
+
   a {
     text-decoration: none;
   }
-  
+
   img {
     max-width: 100%;
     margin-left: 33%;
   }
-  
 }

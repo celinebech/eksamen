@@ -1,18 +1,18 @@
-// Funktion til at starte animationen af MacMiller-figuren
+// funktion der får figuren til at starte
 function startMacMillerFall() {
-  // Find containeren og sprite-elementet
+  // find containeren og sprite-elementet som er skrevet ind i html
   const macmillerContainer = document.querySelector("#macmiller_container");
 
-  // Tilføj animation class til at få figuren til at falde ned
+  // tilføjer animation class til at få figuren til at falde ned
   macmillerContainer.classList.add("falling");
 
-  // Når animationen er færdig, skal vi ændre dens position
+  // når animationen er færdig, ændres dens position
   macmillerContainer.addEventListener("animationend", function () {
-    macmillerContainer.style.top = "150%"; // Stop figuren i midten af skærmen
+    macmillerContainer.style.top = "150%"; // stopper figuren der hvor den gør (på knappen i dette tilfælde)
   });
 }
 
-// Eventlistener for at starte animationen når siden er loadet
+// eventlisteneren starter animationen når siden er loadet
 window.addEventListener("load", function () {
   startMacMillerFall();
 });

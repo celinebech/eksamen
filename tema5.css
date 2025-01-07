@@ -8,7 +8,7 @@ h1 {
   color: #ad0000;
   font-family: "Big Caslon", serif;
   font-weight: bold;
-  padding-top: 200px;
+  padding-top: 20px;
   margin-bottom: 20px;
   font-size: 80px;
   text-align: center;
@@ -45,7 +45,6 @@ h4 {
   padding-right: 100%;
   margin-right: 30%;
   max-width: 100%;
-  size: 90%;
 }
 
 body {
@@ -63,13 +62,16 @@ ul {
   padding: 2%;
   margin-top: 0;
   font-family: "Big Caslon", serif;
-  font-size: larger;
+  font-size: 20px;
   color: black;
   list-style: none;
 }
 
 a {
   text-decoration: none;
+  color: #000000;
+  font-weight: bolder;
+  font-size: 20px;
 }
 
 .grid_1 {
@@ -83,13 +85,11 @@ a {
 }
 
 @media only screen and (max-width: 768px) {
-  /* Skift grid layout til en enkelt kolonne */
   .grid_1 {
-    grid-template-columns: 1fr; /* En kolonne på mobile enheder */
-    margin-left: 0; /* Fjern venstre margin */
+    grid-template-columns: 1fr; /* en kolonne i stedet for to */
+    margin-left: 0; /* fjerner venstre margin */
   }
 
-  /* Juster størrelsen på billederne til mobilen */
   .temabillede,
   .tema5billedeIntime {
     width: 100%;
@@ -98,9 +98,8 @@ a {
     margin-right: 0;
   }
 
-  /* Juster fontstørrelser på små skærme */
   h1 {
-    font-size: 50px; /* Mindre font på mobile enheder */
+    font-size: 50px;
   }
 
   h2 {
@@ -115,7 +114,6 @@ a {
     font-size: 18px;
   }
 
-  /* Juster margin og padding for ul og links */
   ul {
     flex-direction: column;
     gap: 20px;
