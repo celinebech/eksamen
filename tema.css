@@ -87,37 +87,48 @@ a {
   margin-left: 10%;
 }
 
-/* Media Query for Mobilversion */
-@media (max-width: 768px) {
-  /* Justerer grid til en kolonne på små skærme */
+@media only screen and (max-width: 768px) {
+  /* Skift grid layout til en enkelt kolonne */
   .grid_1 {
-    grid-template-columns: 1fr; /* Én kolonne i stedet for to */
-    margin-left: 5%; /* Mindre margin på små skærme */
+    grid-template-columns: 1fr; /* En kolonne på mobile enheder */
+    margin-left: 0; /* Fjern venstre margin */
   }
 
-  /* Justering af h1 */
+  /* Juster størrelsen på billederne til mobilen */
+  .temabillede {
+    width: 100%;
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: 0;
+    transform: scale(1); /* Fjerner skalaen på mobile enheder */
+  }
+
+  /* Juster fontstørrelser på små skærme */
   h1 {
-    font-size: 50px; /* Mindre størrelse på h1 på mobil */
-    padding-top: 50px; /* Justeret top-padding */
+    font-size: 50px; /* Mindre font på mobile enheder */
   }
 
-  /* Justering af h2 */
   h2 {
     font-size: 20px;
-    /* Mindre størrelse på h2 på mobil */
   }
 
-  /* Billeder */
-  .temabillede {
-    padding-top: 10%;
-    padding-bottom: 30%;
-    padding-left: 0%;
-    padding-right: 3%;
+  h3 {
+    font-size: 18px;
   }
 
-  /* Navigation */
+  h4 {
+    font-size: 18px;
+  }
+
+  /* Juster margin og padding for ul og links */
   ul {
-    flex-direction: column; /* Ændrer navigationen til en vertikal liste */
+    flex-direction: column;
     gap: 20px;
+    justify-content: flex-start;
+  }
+
+  a {
+    font-size: 18px;
   }
 }

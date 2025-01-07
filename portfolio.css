@@ -59,9 +59,8 @@ a {
   font-weight: bolder;
 }
 
-
-/* MOBIL */
-@media (max-width: 768px) {
+@media (max-width: 768px) 
+{
   .tema-box {
     padding: 15px;
   }

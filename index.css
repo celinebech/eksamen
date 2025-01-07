@@ -53,12 +53,6 @@ p {
   margin-right: 0px;
 }
 
-@media (max-width: 768px) {
-  ul {
-    flex-direction: column; /* Ændrer navigation til vertikal liste */
-    gap: 20px; /* Mindre mellemrum på mobil */
-  }
-}
 #macmiller_container {
   position: absolute;
   width: 12%;
@@ -112,4 +106,53 @@ img {
 .portfolio {
   max-width: 100%;
   padding-right: 90%;
+}
+
+@media (max-width: 768px) {
+  /* Navigation til vertikal liste */
+  ul {
+    flex-direction: column;
+    gap: 20px; /* Mindre mellemrum på mobil */
+    font-size: 18px; /* Justeret fontstørrelse */
+  }
+
+  /* Call to action knap */
+  .ctaknap {
+    margin-left: 20%;
+    margin-top: 10%;
+    padding: 30px;
+    font-size: 1rem; /* Mindre fontstørrelse */
+  }
+
+  /* Billeder */
+  img {
+    margin: 5px auto;
+  }
+
+  /* Portfolio justering på mobil */
+  .portfolio {
+    grid-column: 1 / 2; /* Kun én kolonne på mobile enheder */
+    margin-left: 0;
+  }
+
+  /* Knap justering */
+  .knap {
+    margin: 0 auto;
+    padding-top: 0;
+    top: 0;
+  }
+
+  /* Mac Miller container tilpasning */
+  #macmiller_container {
+    width: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    animation: fallDown 7s ease forwards;
+  }
+
+  /* Justering af fontstørrelse for tekst */
+  p {
+    font-size: 18px;
+    line-height: 1.6;
+  }
 }
