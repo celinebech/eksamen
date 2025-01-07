@@ -53,7 +53,14 @@ ul {
   color: black;
 }
 
-/* Mobilvenlig version */
+a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bolder;
+}
+
+
+/* MOBIL */
 @media (max-width: 768px) {
   .tema-box {
     padding: 15px;
@@ -66,33 +73,32 @@ ul {
   h2 {
     font-size: 18px;
   }
-}
-
-h3 {
-  color: #000000;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 200;
-  font-size: 20px;
-  text-align: center;
-}
-h4 {
-  color: #000000;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 200;
-  font-size: 20px;
-  text-align: center;
-}
-
-ul {
-  flex-direction: column; /* Ændrer navigation til vertikal liste */
-  gap: 20px; /* Mindre mellemrum på mobil */
-}
-
-a {
-  text-decoration: none;
-}
-
-img {
-  max-width: 100%;
-  margin-left: 33%;
+  h3 {
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    text-align: center;
+  }
+  h4 {
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    text-align: center;
+  }
+    ul {
+    flex-direction: column; 
+    gap: 20px; /
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  img {
+    max-width: 100%;
+    margin-left: 33%;
+  }
+  
 }

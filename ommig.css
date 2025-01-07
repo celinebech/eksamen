@@ -34,10 +34,10 @@ ul {
 
 a {
   text-decoration: none;
-  font-size: 18px; /* Ensartet tekststørrelse */
+  color: #000000;
+  font-weight: bolder;
 }
 
-/* Brødtekst */
 p {
   font-size: 20px;
   max-width: 700px;
@@ -47,9 +47,9 @@ p {
   font-family: "Big Caslon", serif;
   margin: 20px; /* Centrerer teksten */
   padding-top: 20%;
+  padding-bottom: 15%;
 }
 
-/* Billeder */
 img {
   max-width: 100%;
   height: auto; /* Holder proportionerne */
@@ -103,11 +103,13 @@ h2 {
     padding-top: 100px; /* Mindre top-padding */
   }
 
-  /* Navigation */
   ul {
-    flex-direction: column; /* Ændrer til vertikal navigation */
-    gap: 20px;
-    padding: 0;
+    flex-direction: column; 
+    gap: 20px; /
+  }
+  
+  a {
+    text-decoration: none;
   }
 
   /* H2 */
