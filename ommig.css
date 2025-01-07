@@ -1,77 +1,3 @@
-/* body {
-  font-size: 16px;
-  background-image: url(img/forsidebaggrund.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: repeat;
-}
-
-h1 {
-  color: #ad0000;
-  font-family: Arial, Helvetica, sans-serif;
-  padding-top: 200px;
-  bottom: 1000px;
-  margin-bottom: 20px;
-}
-
-ul {
-  display: flex;
-  justify-content: center;
-  gap: 350px;
-  padding: 2%;
-  margin-top: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: larger;
-  color: black;
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-}
-
-p {
-  font-size: 36px;
-  max-width: 700px;
-  text-align: center;
-  font-size: 20px;
-  line-height: 1.8;
-  color: #000000;
-  font-family: Arial, Helvetica, sans-serif;
-  grid-column: 1/3;
-  margin-left: 350px;
-}
-
-img {
-  max-width: 100%;
-}
-
-main {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto;
-  margin: 0 auto;
-}
-
-.celinebechandersen {
-  grid-column: 1/3;
-}
-
-h2 {
-  font-size: 36px;
-  font-display: bold;
-  max-width: 700px;
-  text-align: center;
-  font-size: 50px;
-  line-height: 1.8;
-  color: #000000;
-  padding-top: 0.9%;
-  font-family: Arial, Helvetica, sans-serif;
-  grid-column: 1/3;
-  margin-left: 350px;
-  margin-top: 90px;
-} */
-
 /* Baggrund og grundlæggende styling */
 body {
   font-size: 16px;
@@ -117,7 +43,8 @@ p {
   line-height: 1.8;
   color: #000000;
   font-family: Arial, Helvetica, sans-serif;
-  margin: 20px auto; /* Centrerer teksten */
+  margin: 20px; /* Centrerer teksten */
+  padding-top: 20%;
 }
 
 /* Billeder */
@@ -144,14 +71,14 @@ main {
 
 /* Sekundære overskrifter */
 h2 {
-  font-size: 50px;
+  font-size: 60px;
   font-weight: bold;
   max-width: 700px;
   text-align: center;
   line-height: 1.8;
   color: #000000;
   margin: 40px auto;
-  padding-top: 0.9%;
+  padding-top: 10%;
   font-family: Arial, Helvetica, sans-serif;
 }
 

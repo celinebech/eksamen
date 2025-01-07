@@ -8,8 +8,7 @@ function startMacMillerFall() {
 
   // Når animationen er færdig, skal vi ændre dens position
   macmillerContainer.addEventListener("animationend", function () {
-    macmillerContainer.style.top = "123%"; // Stop figuren i midten af skærmen
-    macmillerContainer.classList.remove("falling"); // Fjern animationen
+    macmillerContainer.style.top = "150%"; // Stop figuren i midten af skærmen
   });
 }
 

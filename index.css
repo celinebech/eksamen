@@ -2,6 +2,7 @@ body {
   background-image: url(img/forsidebaggrund.png);
   background-size: cover;
   background-position: center;
+  background-repeat: repeat;
 }
 
 h1 {
@@ -47,15 +48,12 @@ p {
 
 .knap {
   position: relative;
-  max-width: 700px;
-  margin: 50px auto;
   text-align: center;
-  line-height: 1.8;
   margin: 1250px auto;
   padding-top: 0.9%;
   top: -1150px;
   left: 0px;
-  margin-top: 1;
+  margin-top: 1370px;
 }
 
 @media (max-width: 768px) {
@@ -66,12 +64,12 @@ p {
 }
 #macmiller_container {
   position: absolute;
-  width: 18%;
+  width: 12%;
   aspect-ratio: 287/293;
   top: -50%; /* Start position off-screen */
   left: 50%;
   transform: translateX(-50%);
-  animation: fallDown 3s ease forwards;
+  animation: fallDown 7s ease forwards;
 }
 
 #macmiller_sprite {
@@ -86,6 +84,6 @@ p {
     top: -50%;
   }
   100% {
-    top: 123%;
+    top: 150%;
   }
 }

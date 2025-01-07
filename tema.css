@@ -47,6 +47,7 @@ h4 {
   padding-left: 20%;
   max-width: 100%;
   size: 90%;
+  transform: scale(1.02);
 }
 
 /* Baggrund for hele siden */

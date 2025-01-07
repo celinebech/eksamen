@@ -6,7 +6,8 @@
   text-align: center;
   padding: 20px;
   margin-bottom: 20px;
-  border-radius: 10px; /* Runde hjørner */
+  border-radius: 50px; /* Runde hjørner */
+  border-color: #ad0000;
   text-decoration: none; /* Fjern standard link-underline */
   transition: transform 0.3s, box-shadow 0.3s; /* Blød overgang for hover-effekter */
 }
@@ -31,6 +32,13 @@ h1 {
 h2 {
   font-size: 20px;
   font-weight: 200;
+}
+body {
+  font-size: 16px;
+  background-image: url(img/forsidebaggrund.png);
+  background-size: cover;
+  /* background-position: center; */
+  background-repeat: repeat;
 }
 
 /* Mobilvenlig version */
