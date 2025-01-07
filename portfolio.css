@@ -1,7 +1,7 @@
 .tema-box {
   display: block; /* Gør hele området klikbart */
   background-color: #ededed; /* Lys baggrundsfarve for boksene */
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Big Caslon", serif;
   color: #ad0000; /* Tekstfarve */
   text-align: center;
   padding: 20px;
@@ -35,7 +35,7 @@ h2 {
 }
 body {
   font-size: 16px;
-  background-image: url(img/forsidebaggrund.png);
+  background-image: url(img/portfolio.webp);
   background-size: cover;
   /* background-position: center; */
   background-repeat: repeat;
@@ -77,7 +77,7 @@ ul {
   gap: 350px;
   padding: 2%;
   margin-top: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Big Caslon", serif;
   font-size: 20px;
   color: black;
   list-style: none;

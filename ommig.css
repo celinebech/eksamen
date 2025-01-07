@@ -1,7 +1,6 @@
-/* Baggrund og grundlæggende styling */
 body {
   font-size: 16px;
-  background-image: url(img/forsidebaggrund.png);
+  background-image: url(img/portfolio.webp);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat; /* Undgå gentagelse for bedre æstetik */
@@ -10,7 +9,7 @@ body {
 /* Hovedoverskrifter */
 h1 {
   color: #ad0000;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Big Caslon", serif;
   padding-top: 150px; /* Reduceret padding for bedre mobilvisning */
   margin-bottom: 20px;
   text-align: center;
@@ -24,7 +23,7 @@ ul {
   gap: 350px;
   padding: 2%;
   margin-top: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Big Caslon", serif;
   font-size: 20px;
   color: black;
   list-style: none;
@@ -42,7 +41,7 @@ p {
   text-align: center;
   line-height: 1.8;
   color: #000000;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Big Caslon", serif;
   margin: 20px; /* Centrerer teksten */
   padding-top: 20%;
 }
@@ -79,7 +78,7 @@ h2 {
   color: #000000;
   margin: 40px auto;
   padding-top: 10%;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Big Caslon", serif;
 }
 
 /* Mobiltilpasning */

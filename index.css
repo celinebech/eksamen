@@ -17,7 +17,7 @@ ul {
   list-style: none;
   padding: 2%;
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Big Caslon", serif;
   font-size: 20px;
   color: black;
 }
@@ -35,8 +35,7 @@ p {
   margin: 100px auto;
   color: #000000;
   padding-top: 0.9%;
-  font-family: Arial, Helvetica, sans-serif "Franklin Gothic Medium",
-    "Arial Narrow", Arial, sans-serif;
+  font-family: "Big Caslon", serif;
 }
 
 .knap {
@@ -88,7 +87,7 @@ p {
   background-color: #ad0000;
   padding: 60px;
   border-radius: 20em;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Big Caslon", serif;
   font-weight: bold;
   font-size: 1.2rem;
   text-decoration: none;
